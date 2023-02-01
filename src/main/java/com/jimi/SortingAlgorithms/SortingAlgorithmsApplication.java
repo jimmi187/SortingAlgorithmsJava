@@ -11,7 +11,7 @@ public class SortingAlgorithmsApplication {
 		Integer[] integers = { 10, 55, -5, 34, 7, 22, 19 };
 		String [] strings = { "Sylvanas", "Arthas", "Illidan", "Thrall", "Jaina" };
 		System.out.println(Arrays.toString(integers) + " | " + Arrays.toString(strings));
-		new BubbleSort<>(integers).sort(); new BubbleSort<>(strings).sort();
+		new DShellSort<>(integers).sort(); new DShellSort<>(strings).sort();
 		System.out.println(Arrays.toString(integers) + " | " + Arrays.toString(strings));
 
 
