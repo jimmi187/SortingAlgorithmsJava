@@ -2,10 +2,10 @@ package com.jimi.SortingAlgorithms;
 
 import java.util.stream.IntStream;
 
-public class DShellSort<T extends Comparable<T>> {
+public class D_ShellSort<T extends Comparable<T>> {
     private final T[] arr;
 
-    public DShellSort(T[] arr) {
+    public D_ShellSort(T[] arr) {
         this.arr = arr;
     }
 

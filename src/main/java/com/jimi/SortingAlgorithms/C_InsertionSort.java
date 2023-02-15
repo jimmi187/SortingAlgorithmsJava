@@ -2,10 +2,10 @@ package com.jimi.SortingAlgorithms;
 
 import java.util.stream.IntStream;
 
-public class CInsertionSort<T extends Comparable<T>>{
+public class C_InsertionSort<T extends Comparable<T>>{
     private final T[] arr;
 
-    public CInsertionSort(T[] arr) {
+    public C_InsertionSort(T[] arr) {
         this.arr = arr;
     }
 

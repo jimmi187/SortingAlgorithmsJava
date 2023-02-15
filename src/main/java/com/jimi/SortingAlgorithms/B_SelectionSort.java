@@ -1,11 +1,11 @@
 package com.jimi.SortingAlgorithms;
 
-public class BSelectionSort<T extends Comparable<T>> {
+public class B_SelectionSort<T extends Comparable<T>> {
 
     private final T[] arr;
 
 
-    public BSelectionSort(T[] arr) {
+    public B_SelectionSort(T[] arr) {
         this.arr = arr;
     }
 

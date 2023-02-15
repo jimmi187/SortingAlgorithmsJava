@@ -1,10 +1,10 @@
 package com.jimi.SortingAlgorithms;
 
-public class ABubbleSort<T extends Comparable<T>>{
+public class A_BubbleSort<T extends Comparable<T>>{
 
     private final T[] arr;
 
-    public ABubbleSort(T[] arr) {
+    public A_BubbleSort(T[] arr) {
         this.arr = arr;
     }
 
